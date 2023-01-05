@@ -4,7 +4,7 @@
 #
 Name     : pypi-pydantic
 Version  : 1.10.4
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/53/17/34e54e352f6a3d304044e52d5ddd5cd621a62ec8fb7af08cc73af65dd3e1/pydantic-1.10.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/53/17/34e54e352f6a3d304044e52d5ddd5cd621a62ec8fb7af08cc73af65dd3e1/pydantic-1.10.4.tar.gz
 Summary  : Data validation and settings management using python type hints
