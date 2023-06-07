@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-pydantic
-Version  : 1.10.8
-Release  : 17
-URL      : https://files.pythonhosted.org/packages/23/65/2aa13873e9e0084ecaec00fbe6c6096b65e1ab99ba66bdbf7e4e7c4cc915/pydantic-1.10.8.tar.gz
-Source0  : https://files.pythonhosted.org/packages/23/65/2aa13873e9e0084ecaec00fbe6c6096b65e1ab99ba66bdbf7e4e7c4cc915/pydantic-1.10.8.tar.gz
+Version  : 1.10.9
+Release  : 18
+URL      : https://files.pythonhosted.org/packages/ec/0a/cf955f8bb3b9498d554522cfe7cb9b019ba9f8b86e2879009f604207b72c/pydantic-1.10.9.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ec/0a/cf955f8bb3b9498d554522cfe7cb9b019ba9f8b86e2879009f604207b72c/pydantic-1.10.9.tar.gz
 Summary  : Data validation and settings management using python type hints
 Group    : Development/Tools
 License  : MIT
@@ -59,10 +59,10 @@ python3 components for the pypi-pydantic package.
 
 
 %prep
-%setup -q -n pydantic-1.10.8
-cd %{_builddir}/pydantic-1.10.8
+%setup -q -n pydantic-1.10.9
+cd %{_builddir}/pydantic-1.10.9
 pushd ..
-cp -a pydantic-1.10.8 buildavx2
+cp -a pydantic-1.10.9 buildavx2
 popd
 
 %build
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684941078
+export SOURCE_DATE_EPOCH=1686176599
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
