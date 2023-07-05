@@ -5,7 +5,7 @@
 #
 Name     : pypi-pydantic
 Version  : 2.0.1
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/ee/f6/e6f0c9bcb402c1817438491f2ce7480f4f3c179c6e51db13ba8941e94c49/pydantic-2.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ee/f6/e6f0c9bcb402c1817438491f2ce7480f4f3c179c6e51db13ba8941e94c49/pydantic-2.0.1.tar.gz
 Summary  : Data validation using Python type hints
