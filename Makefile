@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pydantic
-URL = https://files.pythonhosted.org/packages/ee/f6/e6f0c9bcb402c1817438491f2ce7480f4f3c179c6e51db13ba8941e94c49/pydantic-2.0.1.tar.gz
+URL = https://files.pythonhosted.org/packages/eb/84/9b0a0e2d931fc9bdb32e6905076714f9592f9b20de03c90fd0f65b3ab063/pydantic-1.10.10.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
