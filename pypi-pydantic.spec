@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-pydantic
-Version  : 2.9.0
-Release  : 44
-URL      : https://files.pythonhosted.org/packages/f6/8f/3b9f7a38caa3fa0bcb3cea7ee9958e89a9a6efc0e6f51fd6096f24cac140/pydantic-2.9.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/f6/8f/3b9f7a38caa3fa0bcb3cea7ee9958e89a9a6efc0e6f51fd6096f24cac140/pydantic-2.9.0.tar.gz
+Version  : 2.9.1
+Release  : 45
+URL      : https://files.pythonhosted.org/packages/14/15/3d989541b9c8128b96d532cfd2dd10131ddcc75a807330c00feb3d42a5bd/pydantic-2.9.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/14/15/3d989541b9c8128b96d532cfd2dd10131ddcc75a807330c00feb3d42a5bd/pydantic-2.9.1.tar.gz
 Summary  : Data validation using Python type hints
 Group    : Development/Tools
 License  : MIT
@@ -59,17 +59,16 @@ Provides: pypi(pydantic)
 Requires: pypi(annotated_types)
 Requires: pypi(pydantic_core)
 Requires: pypi(typing_extensions)
-Requires: pypi(tzdata)
 
 %description python3
 python3 components for the pypi-pydantic package.
 
 
 %prep
-%setup -q -n pydantic-2.9.0
-cd %{_builddir}/pydantic-2.9.0
+%setup -q -n pydantic-2.9.1
+cd %{_builddir}/pydantic-2.9.1
 pushd ..
-cp -a pydantic-2.9.0 buildavx2
+cp -a pydantic-2.9.1 buildavx2
 popd
 
 %build
@@ -77,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1725632096
+export SOURCE_DATE_EPOCH=1725891426
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
