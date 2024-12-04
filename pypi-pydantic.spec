@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : pypi-pydantic
-Version  : 2.10.2
-Release  : 50
-URL      : https://files.pythonhosted.org/packages/41/86/a03390cb12cf64e2a8df07c267f3eb8d5035e0f9a04bb20fb79403d2a00e/pydantic-2.10.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/41/86/a03390cb12cf64e2a8df07c267f3eb8d5035e0f9a04bb20fb79403d2a00e/pydantic-2.10.2.tar.gz
+Version  : 2.10.3
+Release  : 51
+URL      : https://files.pythonhosted.org/packages/45/0f/27908242621b14e649a84e62b133de45f84c255eecb350ab02979844a788/pydantic-2.10.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/45/0f/27908242621b14e649a84e62b133de45f84c255eecb350ab02979844a788/pydantic-2.10.3.tar.gz
 Summary  : Data validation using Python type hints
 Group    : Development/Tools
 License  : MIT
@@ -65,10 +65,10 @@ python3 components for the pypi-pydantic package.
 
 
 %prep
-%setup -q -n pydantic-2.10.2
-cd %{_builddir}/pydantic-2.10.2
+%setup -q -n pydantic-2.10.3
+cd %{_builddir}/pydantic-2.10.3
 pushd ..
-cp -a pydantic-2.10.2 buildavx2
+cp -a pydantic-2.10.3 buildavx2
 popd
 
 %build
@@ -76,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1732634577
+export SOURCE_DATE_EPOCH=1733324426
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
